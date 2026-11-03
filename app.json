@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "CoiffGo",
+    "slug": "coiffgo",
+    "scheme": "coiffgo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "expo-router",
+        {}
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Autoriser CoiffGo à sélectionner les photos de vos réalisations."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
